@@ -32,6 +32,6 @@ You may use the following bibtex entry to cite RPLSDSPCA:
 You can install RPLSDSPCA directly from the repo via: 
 
 ```bash
-git clone ...
+git clone https://github.com/seanfcottrell/RPLSDSPCA.git
 ```
 
