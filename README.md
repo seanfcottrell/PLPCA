@@ -9,7 +9,7 @@ Included here are several files for different PCA methods that can be used to co
 
 # DATASETS: 
 
-All datasets were obtained from the Cancer Genome Atlas database (). The MultiSource dataset is a four class dataset containing gene expression data and three cancer types: cholangiocarcinoma (CHOL), head and neck squamous cell carcinoma (HNSCC), and pancreatic adenocarcinoma (PAAD), as well as normal samples. The COAD dataset is a two class dataset containing gene expression data, colon adenocarcinoma samples, and normal tissue samples. Both datasets were used in this study as the benchmark datasets on which we performed our analysis. 
+All datasets were obtained from the Cancer Genome Atlas database (https://portal.gdc.cancer.gov/). The MultiSource dataset is a four class dataset containing gene expression data and three cancer types: cholangiocarcinoma (CHOL), head and neck squamous cell carcinoma (HNSCC), and pancreatic adenocarcinoma (PAAD), as well as normal samples. The COAD dataset is a two class dataset containing gene expression data, colon adenocarcinoma samples, and normal tissue samples. Both datasets were used in this study as the benchmark datasets on which we performed our analysis. 
 
 # REFERENCES: 
 
