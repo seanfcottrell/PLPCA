@@ -9,6 +9,8 @@ This work builds upon previous improvements to PCA, most notably the RLSDSPCA pr
 
 ---
 
+Note this image needs to be replaced with original depiction that does not include feature selection
+
 ## MODEL:
 
 Included here are several files for different PCA methods that can be used to compare relative classification performances on different datasets (after dimensionality reduction). Included are: PCA, gLPCA, gLSPCA, SDSPCA, RLSDSPCA, RPLSDSPCA. 
