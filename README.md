@@ -3,6 +3,12 @@ Robust Persistent Laplacian Discriminative Sparse Principal Component Analysis
 
 This work builds upon previous improvements to PCA, most notably the RLSDSPCA procedure of Zhang et. al, by introducing a Persistent Laplacian via a filtration procedure on the Weighted Graph Laplacian. This term then captures local geometrical structure information of high dimensional data via Laplacian Eigenmaps, and performs better due to its ability to emphasize topologically persistent features.
 
+---
+
+pic
+
+---
+
 ## MODEL:
 
 Included here are several files for different PCA methods that can be used to compare relative classification performances on different datasets (after dimensionality reduction). Included are: PCA, gLPCA, gLSPCA, SDSPCA, RLSDSPCA, RPLSDSPCA. 
