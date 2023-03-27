@@ -46,13 +46,13 @@ if __name__ == '__main__':
     f1list = []
     knc = KNeighborsClassifier(n_neighbors=1)
 
-    # RLSDSPCA
+    # RPLSDSPCA
     alpha1 = 1.5
     alpha2 = 0.5
     alpha3 = 0.5
-    alpha4 = float(sys.argv[1]) #.5
-    alpha5 = float(sys.argv[2]) #1
-    alpha6 = float(sys.argv[3]) #.5 yields 1.00 acc
+    alpha4 = .5
+    alpha5 = 1
+    alpha6 = .5 
 
     print("======================================RPLSDSPCA======================================")
     accuracylist.clear()
@@ -94,9 +94,6 @@ if __name__ == '__main__':
     print('RPLSDSPCA accuracy_mean = ', accuracy_mean)
     print('RPLSDSPCA accuracy_var = ', accuracy_var)
     print('RPLSDSPCA accuracy_std = ', accuracy_std)
-    write_file = open('/mnt/home/cottre61/THESIS/parameter_tuning_results/RPLSDSPCA_accuracy_two_outliers.csv','a+')
-    write_file.write('k = 6: Alpha4: %.2f, Alpha5: %.2f, Alpha6: %.2f, Acc: %.6f\n'%(alpha4,alpha5,alpha6,accuracy_mean))
-    write_file.close()
 
     precision_mean = np.mean(precisionlist)
     precision_var = np.var(precisionlist)
