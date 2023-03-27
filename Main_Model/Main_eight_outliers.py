@@ -51,13 +51,13 @@ if __name__ == '__main__':
     f1list = []
     knc = KNeighborsClassifier(n_neighbors=1)
 
-    # RLSDSPCA
-    alpha1 = float(sys.argv[1]) #3
-    alpha2 = float(sys.argv[2]) #3
-    alpha3 = float(sys.argv[3]) #1.5
+    # RPLSDSPCA
+    alpha1 = 3
+    alpha2 = 3
+    alpha3 = 1.5
     alpha4 = 3
     alpha5 = 1
-    alpha6 = 3 #yields 0.9939 acc
+    alpha6 = 3 
 
     print("======================================RPLSDSPCA======================================")
     accuracylist.clear()
