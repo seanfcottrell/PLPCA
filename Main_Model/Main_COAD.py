@@ -78,9 +78,9 @@ if __name__ == '__main__':
     alpha5 = 2
     alpha6 = 2
     
-    alpha = float(sys.argv[1])
-    beta = float(sys.argv[2])
-    gamma = float(sys.argv[3])
+    alpha = 1e5
+    beta = 60
+    gamma = 3
 
     for k in [1, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100]:
         accuracy = 0
@@ -117,11 +117,6 @@ if __name__ == '__main__':
     accuracy_var = np.var(accuracylist)
     accuracy_std = np.std(accuracylist)
     print('RPLSDSPCA accuracy_mean = ', accuracy_mean)
-    write_file = open('/mnt/home/cottre61/THESIS/parameter_tuning_results/COAD_alphabetagamma_accuracy.csv','a+')
-    write_file.write('k = 6: Alpha: %.2f, Beta: %.2f, Gamma: %.2f, Acc: %.6f\n'%(alpha,beta,gamma,accuracy_mean))
-    write_file.close()
-
-
     print('RPLSDSPCA accuracy_var = ', accuracy_var)
     print('RPLSDSPCA accuracy_std = ', accuracy_std)
 
@@ -145,6 +140,3 @@ if __name__ == '__main__':
     print('RPLSDSPCA f1_mean = ', f1_mean)
     print('RPLSDSPCA f1_var = ', f1_var)
     print('RPLSDSPCA f1_std = ', f1_std)
-    write_file = open('/mnt/home/cottre61/THESIS/parameter_tuning_results/COAD_alphabetagamma_f1.csv','a+')
-    write_file.write('k = 6: Alpha: %.2f, Beta: %.2f, Gamma: %.2f, F1: %.6f\n'%(alpha,beta,gamma,f1_mean))
-    write_file.close()
