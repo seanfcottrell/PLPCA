@@ -99,9 +99,6 @@ if __name__ == '__main__':
     print('RPLSDSPCA accuracy_mean = ', accuracy_mean)
     print('RPLSDSPCA accuracy_var = ', accuracy_var)
     print('RPLSDSPCA accuracy_std = ', accuracy_std)
-    write_file = open('/mnt/home/cottre61/THESIS/parameter_tuning_results/RPLSDSPCA_accuracy_eight_outliers.csv','a+')
-    write_file.write('k = 6: Alpha1: %.2f, Alpha2: %.2f, Alpha3: %.2f, Acc: %.6f\n'%(alpha1,alpha2,alpha3,accuracy_mean))
-    write_file.close()
 
     precision_mean = np.mean(precisionlist)
     precision_var = np.var(precisionlist)
