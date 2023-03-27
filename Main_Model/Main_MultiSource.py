@@ -97,9 +97,9 @@ if __name__ == '__main__':
     alpha5 = 1
     alpha6 = 5
 
-    alpha = float(sys.argv[1]) #1e4
-    beta = float(sys.argv[2]) #.5
-    gamma = float(sys.argv[3]) #1e1
+    alpha = 1e4
+    beta = .5
+    gamma = 1e1
 
     # RPLSDSPCA
     print("======================================RPLSDSPCA======================================")
@@ -143,9 +143,7 @@ if __name__ == '__main__':
     print('RPLSDSPCA accuracy_mean = ', accuracy_mean)
     print('RPLSDSPCA accuracy_var = ', accuracy_var)
     print('RPLSDSPCA accuracy_std = ', accuracy_std)
-    write_file = open('/mnt/home/cottre61/THESIS/parameter_tuning_results/RPLSDSPCA_accuracy_multisource_alphabetagamma.csv','a+')
-    write_file.write('f1 test, k = 6: Alpha: %.3f, Beta: %.3f, Gamma: %.3f, acc: %.6f\n'%(alpha,beta,gamma,accuracy_mean))
-    write_file.close()
+
 
     precision_mean = np.mean(precisionlist)
     precision_var = np.var(precisionlist)
@@ -167,6 +165,4 @@ if __name__ == '__main__':
     print('RPLSDSPCA f1_mean = ', f1_mean)
     print('RPLSDSPCA f1_var = ', f1_var)
     print('RPLSDSPCA f1_std = ', f1_std)
-    write_file = open('/mnt/home/cottre61/THESIS/parameter_tuning_results/RPLSDSPCA_f1_multisource_alphabetagamma.csv','a+')
-    write_file.write('k = 6: Alpha: %.3f, Beta: %.3f, Gamma: %.3f, f1: %.6f\n'%(alpha,beta,gamma,f1_mean))
-    write_file.close()
+
