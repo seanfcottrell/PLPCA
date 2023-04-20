@@ -5,7 +5,7 @@ This work builds upon previous improvements to PCA, most notably the RLSDSPCA pr
 
 ---
 
-![model](./old_model.png)
+![model](./RPLSDSPCA.png)
 
 ---
 
