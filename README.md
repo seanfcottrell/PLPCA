@@ -1,7 +1,7 @@
-# RPLSDSPCA
+# PLPCA
 Robust Persistent Laplacian Supervised Discriminative Sparse Principal Component Analysis
 
-This work builds upon previous improvements to PCA, most notably the gLPCA procedure of Jiang et. al and the RLSDSPCA procedure of Zhang et. al, by introducing the Persistent Laplacian. The Persistent Laplacian is induced via a filtration procedure on the Weighted Graph Laplacian, which is analogous to the Rips complex. This term then captures local geometrical structure information through Persistent Spectral Graphs. 
+This work builds upon previous improvements to PCA, most notably the gLPCA procedure of Jiang et. al, the SDSPCA procedure of Feng et. al, and the RLSDSPCA procedure of Zhang et. al, by introducing the Persistent Laplacian. The Persistent Laplacian is induced via a filtration procedure on the Weighted Graph Laplacian, which is analogous to the Vietoris Rips complex. This term then captures local geometrical structure information through Persistent Spectral Graphs. 
 
 ---
 
@@ -11,7 +11,7 @@ This work builds upon previous improvements to PCA, most notably the gLPCA proce
 
 ## MODEL:
 
-Included here are several files for different PCA methods that can be used to compare relative classification performances on different datasets (after dimensionality reduction). Included are: PCA, gLPCA, gLSPCA, SDSPCA, RLSDSPCA, PLPCA, RPLSDSPCA. 
+Included here are several files for different PCA methods that can be used to compare relative classification performances on different datasets (after dimensionality reduction). Included are: PCA, gLPCA, gLSPCA, SDSPCA, RLSDSPCA, pLPCA, and PLPCA, which we also may refer to as RPLSDSPCA. 
 
 ## DATASETS: 
 
@@ -35,9 +35,9 @@ You may use the following bibtex entry to cite RPLSDSPCA:
 
 ## INSTALLATION: 
 
-You can install RPLSDSPCA directly from the repo in your terminal via: 
+You can install PLPCA directly from the repo in your terminal via: 
 
 ```bash
-git clone https://github.com/seanfcottrell/RPLSDSPCA.git
+git clone https://github.com/seanfcottrell/PLPCA.git
 ```
 
