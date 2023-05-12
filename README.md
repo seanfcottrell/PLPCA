@@ -5,11 +5,13 @@ This work builds upon previous improvements to PCA, most notably the gLPCA proce
 
 ---
 
-![model](./RPLSDSPCA.png)
+![model](./PLPCA.pdf)
 
 ---
 
 ## MODEL:
+
+Much of the code provided has been sourced from the previous work of Zhang et. al at the RLSDSPCA GitHub Repository referenced in their paper. 
 
 Included here are several files for different PCA methods that can be used to compare relative classification performances on different datasets (after dimensionality reduction). Included are: PCA, gLPCA, gLSPCA, SDSPCA, RLSDSPCA, pLPCA, and PLPCA, which we also may refer to as RPLSDSPCA. 
 
